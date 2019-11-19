@@ -2,7 +2,7 @@
 {{- $releaseName := .Release.Name -}}
 {{- $servicePort := .Values.httpPort -}}
 {{- $relativePath := .Values.config.GITLAB_RELATIVE_URL_ROOT }}
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 kind: Ingress
 metadata:
   annotations:
