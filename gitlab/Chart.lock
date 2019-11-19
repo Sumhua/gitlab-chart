@@ -1,0 +1,18 @@
+dependencies:
+- name: redis
+  repository: https://kubernetes-charts.storage.googleapis.com/
+  version: 0.7.0
+- name: postgresql
+  repository: https://kubernetes-charts.storage.googleapis.com/
+  version: 0.6.0
+- name: minio
+  repository: https://kubernetes-charts.storage.googleapis.com/
+  version: 1.3.3
+- name: runner
+  repository: http://charts.lwolf.org/
+  version: 0.4.1
+- name: registry
+  repository: http://charts.lwolf.org/
+  version: 0.2.0
+digest: sha256:149213c6f6b7ee38c6105ea2c723119466a6a5cb03ff8e19e2cbb6b8172f9581
+generated: "2019-11-19T20:47:34.300087334+08:00"
