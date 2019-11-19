@@ -9,6 +9,10 @@ metadata:
     heritage: "{{ .Release.Service }}"
 spec:
   replicas: {{ .Values.replicas }}
+  selector:
+    matchLabels:
+      app: gitlab-gitlab 
+
   template:
     metadata:
       labels:
